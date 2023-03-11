@@ -1,7 +1,18 @@
 body {
-    background: pink;
+    background-image: url("https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGlua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-position: bottom;
+    font-family: Montserrat, sans-serif;
+    color:darkslategray;
 }
 
 h1 {
-font-family:fantasy;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 20px;
 }
+
+hr {
+    border: 2px dotted #f590f5;
+}
+
