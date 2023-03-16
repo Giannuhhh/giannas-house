@@ -2,6 +2,7 @@ body {
     background-image: url(https://images.unsplash.com/photo-1677950876655-964c27d4026a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     background-size: cover; 
     font-family: playfair display, sans-serif; 
+    background-position: bottom;
 }
 
 h1 {
@@ -24,71 +25,21 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-about-me {
+#about-me {
     display: inline-block;
-    ;
+    background-color: #abd7eb;
+    border-radius: 4px;
 }
 
-#button-1 {
-    border-radius:5px;
-    background-color: #7cd9f2;
-    padding: 20px 50px;
+#about-me:hover {
+    background-color: rgb(255, 255, 159);
 }
 
-#button-1:hover {
-    background-color:slategray;
-    color: aliceblue;
-    border: solid 2px white;
+.recipe {
+    background-color: rgba(255, 255, 159, 0.25);
+    text-align: center;
 }
 
-#button-2 {
-    border-radius:5px;
-    background-color: #7cd9f2;
-    padding: 20px 50px;
-}
-
-#button-2:hover {
-    background-color:slategray;
-    color: aliceblue;
-    border: solid 2px white;
-}
-
-#button-3 {
-    border-radius:5px;
-    background-color: #7cd9f2;
-    padding: 20px 50px;
-}
-
-#button-3:hover {
-    background-color:slategray;
-    color: aliceblue;
-    border: solid 2px white;
-}
-
-#button-4 {
-    border-radius:5px;
-    background-color: #7cd9f2;
-    padding: 20px 50px;
-}
-
-#button-4:hover {
-    background-color:slategray;
-    color: aliceblue;
-    border: solid 2px white;
-}
-
-#surprise {
-    background-color:blueviolet;
-    border-radius: 3px;
-    border: 2px solid black;
-    padding: 20px 20px;
-    font-size: 30px;
-
-}
-
-#surprise:hover {
-    background-color:black;
-    color:blueviolet;
-    border-radius: 3px;
-    border: 2px solid blueviolet;
+.recipe:hover {
+background-color: #abd7eb;
 }
