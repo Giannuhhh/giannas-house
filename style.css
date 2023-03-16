@@ -1,18 +1,94 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGlua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
-    background-size: cover;
-    background-position: bottom;
-    font-family: Montserrat, sans-serif;
-    color:darkslategray;
+    background-image: url(https://images.unsplash.com/photo-1677950876655-964c27d4026a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover; 
+    font-family: playfair display, sans-serif; 
 }
 
 h1 {
-text-align: center;
-margin-top: 40px;
-margin-bottom: 20px;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: none;
+}
+
+#description {
+    text-align:center;
+    margin-top: 40px;
+    font-size: 30px;
+
 }
 
 hr {
-    border: 2px dotted #f590f5;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+about-me {
+    display: inline-block;
+    ;
+}
+
+#button-1 {
+    border-radius:5px;
+    background-color: #7cd9f2;
+    padding: 20px 50px;
+}
+
+#button-1:hover {
+    background-color:slategray;
+    color: aliceblue;
+    border: solid 2px white;
+}
+
+#button-2 {
+    border-radius:5px;
+    background-color: #7cd9f2;
+    padding: 20px 50px;
+}
+
+#button-2:hover {
+    background-color:slategray;
+    color: aliceblue;
+    border: solid 2px white;
+}
+
+#button-3 {
+    border-radius:5px;
+    background-color: #7cd9f2;
+    padding: 20px 50px;
+}
+
+#button-3:hover {
+    background-color:slategray;
+    color: aliceblue;
+    border: solid 2px white;
+}
+
+#button-4 {
+    border-radius:5px;
+    background-color: #7cd9f2;
+    padding: 20px 50px;
+}
+
+#button-4:hover {
+    background-color:slategray;
+    color: aliceblue;
+    border: solid 2px white;
+}
+
+#surprise {
+    background-color:blueviolet;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 20px 20px;
+    font-size: 30px;
+
+}
+
+#surprise:hover {
+    background-color:black;
+    color:blueviolet;
+    border-radius: 3px;
+    border: 2px solid blueviolet;
+}
